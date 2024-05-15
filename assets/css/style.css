@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: fruit, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin:0px;
+    padding:0px;
+}
+
+.bg-deepblue{
+    background-color: #141f38;
+}
+.bg-pink{
+    background-color: #5D327A;
+}
+.bg-pink2{
+    background-color: #df3272;
+}
+
+nav select{
+  
+    border:none;
+    background-color: #141f38;
+    color:white;
+}
+.navbar .active{
+    color:#df3272 !important;
+}
+
+/* Banner section start */
+.banner{
+    background-image: url(../img/banner\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-pills .nav-link{
+    color:#fff;
+    background-color: #4B3473;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #df3272;
+}
+
+/* Banner section end */
+
+/* fun section start */
+.fun{
+    color:#fff;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/rome\ final.jpg);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* fun section end */
+
+/* newsletter section start */
+
+.newsletter{
+    background:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../img/flight1.jpg);
+    background-size:cover;
+    background-position: center;
+    
+
+}
+/* newsletter section end */
+
+/* destination section start */
+
+.dest{
+    background-color: #4B3473;
+}
+
+.dest p span{
+    color:#dcdc29;
+}
+
+/* destination section end */
+
+/* estimation section start */
+
+.estimate{
+    color:#fff;
+    background-color:#922bd7;
+    
+
+}
+.estimate p:after{
+    content:"";
+    border-bottom:2px solid red;
+}
+/* estimation section end */
+
